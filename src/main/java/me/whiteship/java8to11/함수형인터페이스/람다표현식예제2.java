@@ -1,4 +1,4 @@
-package me.whiteship.java8to11;
+package me.whiteship.java8to11.함수형인터페이스;
 
 import java.util.function.Consumer;
 import java.util.function.IntConsumer;

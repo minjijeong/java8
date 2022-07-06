@@ -1,4 +1,4 @@
-package me.whiteship.java8to11;
+package me.whiteship.java8to11.model;
 
 public class Greeting {
     private String name;

@@ -1,16 +1,17 @@
-package me.whiteship.java8to11;
+package me.whiteship.java8to11.함수형인터페이스;
 
 import java.util.Arrays;
 import java.util.Comparator;
 import java.util.function.Function;
 import java.util.function.Supplier;
 import java.util.function.UnaryOperator;
+import me.whiteship.java8to11.model.Greeting;
 
 public class 람다표현식예제3 {
     public static void main (String[] args){
         // UnaryOperator<String> hi = (s) -> "hi" + s;
         // 스태틱 메소드 참조 -> 타입 :: 스태틱메소드
-        UnaryOperator<String> hi = Greeting :: hi;
+        UnaryOperator<String> hi = Greeting:: hi;
         System.out.println(hi.apply(", hi"));
         // 출력 hi , hi
 

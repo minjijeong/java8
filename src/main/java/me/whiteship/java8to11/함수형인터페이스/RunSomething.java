@@ -1,4 +1,4 @@
-package me.whiteship.java8to11;
+package me.whiteship.java8to11.함수형인터페이스;
 
 /**
  * 인터페이스 : 명시적 선언의 역할
